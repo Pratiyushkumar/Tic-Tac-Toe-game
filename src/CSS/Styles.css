@@ -91,6 +91,10 @@ nav ul li {
   width: 8em;
   border-radius: 5px;
   cursor: pointer;
+  background-color: var(--btn_color);
+  color: var(--white_color);
+  font-weight: 600;
+  font-size: 2em;
 }
 
 /* Pseudo class */
@@ -98,4 +102,10 @@ nav ul li {
   background-color: #84a0c2;
   color: var(--white_color);
   box-shadow: 2px 5px 2px rgb(213, 210, 210);
+}
+
+.btn button:active {
+  background-color: #262a56;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
