@@ -95,6 +95,19 @@ nav ul li {
   color: var(--white_color);
   font-weight: 600;
   font-size: 2em;
+  display: none;
+}
+
+.user-turn {
+  font-family: var(--primary_Font);
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #262a56;
+}
+
+.excitedImg {
+  display: none;
+  width: 96px;
 }
 
 /* Pseudo class */
